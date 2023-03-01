@@ -19,8 +19,10 @@
 
 <style lang="scss" scoped>
 
+@use '/src/style/partials/_variables.scss' as *;
+
     main {
-        background-color: black;
+        background-color: $dark-gray;
         .content {
             padding: 40px 0;
             font-size: 40px;

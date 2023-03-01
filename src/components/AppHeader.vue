@@ -18,7 +18,7 @@
                     <li>
                         <a href="#">CHARACTERS</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="#">COMISCS</a>
                     </li>
                     <li>
@@ -48,8 +48,6 @@
                 </ul>
             </div>
         </div>
-        
-
     </div>
 </template>
 
@@ -57,43 +55,51 @@
 
 @use 'src/style/partials/_variables.scss' as *;
 
-    .row {
+    .container {
+        .row {
         justify-content: space-between;
+        align-items: stretch;
 
-        .link {
-            display: flex;
+            .logo {
+                padding: 20px 0;
+            }
 
-            li {
-                line-height: 40px;
-                margin: 0 20px;
-                font-weight: bold;
-                position: relative;
+            .link {
+                display: flex;
+                height: 100%;
 
-                &::before {
-                content: '';
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                height: 2px;
-                background-color: $celest;
-                opacity: 0;
+                li {
+                    line-height: 40px;
+                    margin: 0 15px;
+                    font-weight: bold;
+                    font-size: 13px;
+                    position: relative;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+
+                    &::before {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 5px;
+                    background-color: $celest;
+                    opacity: 0;
+                    }
+                    
+                    &:hover, &.active {
+                        color: $celest;
+                    }
+                    &:hover::before, &.active::before {
+                    opacity: 1;
+                    }
                 }
-                
-                &:hover {
-                    color: $celest;
-                }
-                &:hover::before {
-                opacity: 1;
-                }
-
-                
             }
         }
     }
 
     
-
-
 </style>
 
