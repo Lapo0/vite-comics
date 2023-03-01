@@ -92,13 +92,27 @@
         .container {
             padding: 40px;
 
+            .row {
+                gap: 60px;
+                justify-content: center;
+            }
+
             .item {
                 display: flex;
                 align-items: center;
 
                 .item-img {
-                    width: 50px;
-                    padding-right: 20px;
+                    height: 50px;
+                    padding-right: 15px;
+
+                    &.svg img{
+                        width: 50px;
+                    }
+                    
+                }
+
+                p {
+                    font-size: 15px;
                 }
             }
         }
