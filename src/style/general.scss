@@ -1,0 +1,13 @@
+@use './partials/reset';
+@use './partials/variables.scss' as *;
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
