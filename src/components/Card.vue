@@ -19,7 +19,6 @@
                 {{ series }}
             </p>
         </div>
-
     </li>
 
 </template>
@@ -27,17 +26,23 @@
 <style lang="scss" scoped>
 
     p {
-        font-size: 18px;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding-top: 10px;
     }
 
         img {
             max-width: 100%;
-        }
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            object-position: center;
 
-        img:hover {
+            &:hover {
             filter: drop-shadow(16px 16px 20px black);
             transform: scale(1.1);
+            }
         }
+
 
    
 
