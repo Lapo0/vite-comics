@@ -1,5 +1,16 @@
 <script>
     export default {
+        data() {
+            return {
+                menu: [  'CHARACTERS',  'COMICS',  'MOVIES',  'TV',  'GAMES',  'COLLECTIBLES',  'VIDEOS',  'FANS',  'NEWS',  'SHOP'],
+                activeIndex: '',
+            }
+        },
+        methods: {
+            linkActive(index) {
+                
+            }
+        },
 
     }
 
@@ -15,35 +26,10 @@
             </div>
             <div class="col">
                 <ul class="link">
-                    <li>
-                        <a href="#">CHARACTERS</a>
-                    </li>
-                    <li class="active">
-                        <a href="#">COMISCS</a>
-                    </li>
-                    <li>
-                        <a href="#">MOVIES</a>
-                    </li>
-                    <li>
-                        <a href="#">TV</a>
-                    </li>
-                    <li>
-                        <a href="#">GAMES</a>
-                    </li>
-                    <li>
-                        <a href="#">COLLECTIBLES</a>
-                    </li>
-                    <li>
-                        <a href="#">VIDEOS</a>
-                    </li>
-                    <li>
-                        <a href="#">FANS</a>
-                    </li>
-                    <li>
-                        <a href="#">NEWS</a>
-                    </li>
-                    <li>
-                        <a href="#">SHOP</a>
+                    <li
+                    v-for="(link, index) in menu"
+                    >
+                        <a href="#">{{ link }}</a>
                     </li>
                 </ul>
             </div>

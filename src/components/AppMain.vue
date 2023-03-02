@@ -1,4 +1,6 @@
 <script>
+    import Card from '/src/components/Card.vue'
+
     export default {
 
     }
@@ -6,13 +8,15 @@
 
 <template>
     <main>
-        <div class="container">
-        <div class="content">
-        <p>
-            ciao
-        </p>
+        <div class="jumbotron">
+            <div class="content">
+                <div class="container">
+
+
+                </div>
+            </div>
         </div>
-        </div>
+        
     </main>
 
 </template>
@@ -23,10 +27,16 @@
 
     main {
         background-color: $dark-gray;
+
+        .jumbotron {
+            background-image: url(/public/images/jumbotron.jpg);
+            padding-top: 400px;
+        }
         .content {
             padding: 40px 0;
             font-size: 40px;
             color: white;
+            background-color: $dark-gray;
         }
     }
     
