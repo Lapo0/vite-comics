@@ -9,63 +9,63 @@
             return {
                 card: [
                         {
-                            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY77OMiWjJS3OUxL-_9E1GJiCDLZzdQmoobg&usqp=CAU",
+                            "thumb": "/public/images/batman.png",
                             "price": "$19.99",
                             "series": "Action Comics",
                             "type": "comic book"
                         },
                         {
-                            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY77OMiWjJS3OUxL-_9E1GJiCDLZzdQmoobg&usqp=CAU",                            "price": "$3.99",
+                            "thumb": "/public/images/batman.png",
                             "series": "American Vampire 1976",
                             "type": "comic book"
                         },
                         {
-                            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY77OMiWjJS3OUxL-_9E1GJiCDLZzdQmoobg&usqp=CAU",                            "price": "$16.99",
+                            "thumb": "/public/images/batman.png",
                             "series": "Aquaman",
                             "type": "graphic novel"
                         },
                         {
-                            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY77OMiWjJS3OUxL-_9E1GJiCDLZzdQmoobg&usqp=CAU",                            "price": "$2.99",
+                            "thumb": "/public/images/batman.png",
                             "series": "Batgirl",
                             "type": "comic book"
                         },
                         {
-                            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY77OMiWjJS3OUxL-_9E1GJiCDLZzdQmoobg&usqp=CAU",                            "price": "$3.99",
+                            "thumb": "/public/images/batman.png",
                             "series": "Batman",
                             "type": "comic book"
                         },
                         {
-                            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY77OMiWjJS3OUxL-_9E1GJiCDLZzdQmoobg&usqp=CAU",                            "price": "$2.99",
+                            "thumb": "/public/images/batman.png",
                             "series": "Batman Beyond",
                             "type": "comic book"
                         },
                         {
-                            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY77OMiWjJS3OUxL-_9E1GJiCDLZzdQmoobg&usqp=CAU",                            "price": "$3.99",
+                            "thumb": "/public/images/batman.png",
                             "series": "Batman/Superman",
                             "type": "comic book"
                         },
                         {
-                            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY77OMiWjJS3OUxL-_9E1GJiCDLZzdQmoobg&usqp=CAU",                            "price": "$4.99",
+                            "thumb": "/public/images/batman.png",
                             "series": "Batman/Superman Annual",
                             "type": "comic book"
                         },
                         {
-                            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY77OMiWjJS3OUxL-_9E1GJiCDLZzdQmoobg&usqp=CAU",                            "price": "$5.99",
+                            "thumb": "/public/images/batman.png",
                             "series": "Batman: The Joker War Zone",
                             "type": "comic book"
                         },
                         {
-                            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY77OMiWjJS3OUxL-_9E1GJiCDLZzdQmoobg&usqp=CAU",                            "price": "$6.99",
+                            "thumb": "/public/images/batman.png",
                             "series": "Batman: Three Jokers",
                             "type": "comic book"
                         },
                         {
-                            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY77OMiWjJS3OUxL-_9E1GJiCDLZzdQmoobg&usqp=CAU",                            "price": "$4.99",
+                            "thumb": "/public/images/batman.png",
                             "series": "Batman: White Knight Presents: Harley Quinn",
                             "type": "comic book"
                         },
                         {
-                            "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY77OMiWjJS3OUxL-_9E1GJiCDLZzdQmoobg&usqp=CAU",                            "price": "$16.99",
+                            "thumb": "/public/images/batman.png",
                             "series": "Catwoman",
                             "type": "graphic novel"
                         }
@@ -115,6 +115,7 @@
                 display: grid;
                 grid-template-columns: repeat(6, 1fr);
                 grid-gap: 20px;
+
             }
         }
     }
