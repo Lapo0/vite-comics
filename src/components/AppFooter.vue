@@ -295,6 +295,10 @@
                     & > * {
                         padding: 15px;
                     }
+
+                    .social-icon:hover {
+                        filter: grayscale(100%) brightness(200%);
+                    }
                 }
             }
         }
